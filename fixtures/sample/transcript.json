@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "value": {
+    "entries": [
+      {
+        "kind": "send-message",
+        "id": "7542bc78",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795444088026,
+        "requestId": "7a4ee56a-dd8e-5ddc-80c3-4e3df203ce67",
+        "seq": 1329
+      },
+      {
+        "kind": "send-message",
+        "id": "da6020b6",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795444278721,
+        "requestId": "6790f944-203a-505b-b722-2e98af092b27",
+        "seq": 1330
+      },
+      {
+        "kind": "send-message",
+        "id": "2d1fad45",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795444592388,
+        "requestId": "89b8506e-764c-52c3-96c7-6d6e370f67c9",
+        "seq": 1331
+      },
+      {
+        "kind": "send-message",
+        "id": "73712db7",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795444912387,
+        "requestId": "bd9f4e75-cf5e-58f5-bf87-6321583d90b3",
+        "seq": 1332
+      },
+      {
+        "kind": "event",
+        "id": "c8869f7272b45bc1a4b0eb989cf3db5ec8869f7272b45bc1a4b0eb989cf3db5ec8869f",
+        "event": {
+          "type": "automation-changed",
+          "action": "disabled",
+          "automationId": "73fd782fbba45d4bad33",
+          "automationName": "61d68f36bb585fa5a8de"
+        },
+        "timestampMs": 1795445034254,
+        "requestId": "1ae47534-e9f1-5232-84bb-43f46f9ccb14",
+        "seq": 1333
+      },
+      {
+        "kind": "send-message",
+        "id": "acdf18d0",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795445043802,
+        "requestId": "1ae47534-e9f1-5232-84bb-43f46f9ccb14",
+        "seq": 1334
+      },
+      {
+        "kind": "message",
+        "id": "2771",
+        "role": "user",
+        "content": "[redacted]",
+        "richText": "[redacted]",
+        "isStreaming": false,
+        "timestampMs": 1795462999768,
+        "clientNonce": "ae9b8e27-752f-5786-afa6-067d7033e1db",
+        "requestId": "7f417536-ddcb-5a4f-b60c-731e51348122",
+        "seq": 1335
+      },
+      {
+        "kind": "send-message",
+        "id": "d6091902",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795463004027,
+        "requestId": "7f417536-ddcb-5a4f-b60c-731e51348122",
+        "seq": 1336
+      },
+      {
+        "kind": "send-message",
+        "id": "84e9aa62",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795463045411,
+        "requestId": "7f417536-ddcb-5a4f-b60c-731e51348122",
+        "seq": 1337
+      },
+      {
+        "kind": "send-message",
+        "id": "d21bc06b",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795463816251,
+        "requestId": "35c36fa7-af3b-5bb5-9a53-e8d44d940a50",
+        "seq": 1340
+      },
+      {
+        "kind": "message",
+        "id": "1ff2b",
+        "role": "user",
+        "content": "[redacted]",
+        "richText": "[redacted]",
+        "isStreaming": false,
+        "timestampMs": 1795567811281,
+        "clientNonce": "05f4e7b9-ecbb-5088-b538-00c06249aebd",
+        "requestId": "0ce186b4-64c0-53fb-850d-d6c2f27b05e3",
+        "seq": 1342
+      },
+      {
+        "kind": "send-message",
+        "id": "72f29164b",
+        "message": {
+          "type": "text",
+          "content": "[redacted]"
+        },
+        "timestampMs": 1795567831148,
+        "requestId": "0ce186b4-64c0-53fb-850d-d6c2f27b05e3",
+        "seq": 1343
+      }
+    ],
+    "epochHint": "ffa33c9a-8554-599d-9d13-e5b584111031:0",
+    "acceptedSequenceHint": 201,
+    "persistedAt": 1795567834004,
+    "precedingTimestampMs": 1795396191726
+  }
+}

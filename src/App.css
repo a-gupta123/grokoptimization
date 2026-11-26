@@ -1,0 +1,300 @@
+.prompt-page {
+  box-sizing: border-box;
+  width: min(960px, 100%);
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+  text-align: left;
+}
+
+.prompt-page h1 {
+  font-size: 32px;
+  letter-spacing: -0.64px;
+  margin: 0 0 12px;
+}
+
+.prompt-page h2 {
+  margin: 0 0 8px;
+}
+
+.prompt-page h3 {
+  margin: 20px 0 8px;
+  font-size: 18px;
+  color: var(--text-h);
+}
+
+.review ol {
+  margin: 0 0 16px;
+  padding-left: 1.25rem;
+}
+
+.workflow li p {
+  margin: 4px 0 0;
+  overflow-wrap: anywhere;
+}
+
+.workflow .tool-call {
+  display: block;
+}
+
+.step-label {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.findings {
+  margin: 0 0 16px;
+  padding-left: 1.25rem;
+}
+
+.findings li + li {
+  margin-top: 16px;
+}
+
+.findings .prompt-text {
+  margin-top: 8px;
+}
+
+.review li + li {
+  margin-top: 6px;
+}
+
+.review input {
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--text-h);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.prompt-page section {
+  margin-top: 32px;
+}
+
+.prompt-page p {
+  margin: 0 0 16px;
+}
+
+.prompt-page a {
+  color: var(--accent);
+}
+
+.prompt-text,
+.prompt-page textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 16px;
+  padding: 16px;
+  overflow: auto;
+  text-align: left;
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-h);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.prompt-text {
+  white-space: pre-wrap;
+}
+
+.prompt-page textarea {
+  display: block;
+  min-height: 180px;
+  resize: vertical;
+}
+
+.prompt-page button,
+.file-field {
+  font: inherit;
+  font-size: 16px;
+  color: var(--text-h);
+}
+
+.prompt-page button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  cursor: pointer;
+}
+
+.prompt-page button:focus-visible,
+.prompt-page input:focus-visible,
+.prompt-page textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.file-field,
+.trace-field {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.sample {
+  margin-top: 0;
+}
+
+.save-run,
+.saved-task,
+.comparison {
+  margin-top: 24px;
+}
+
+.pass-choice,
+.compare-picks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 8px 0 12px;
+}
+
+.compare-picks .trace-field {
+  flex: 1 1 240px;
+}
+
+.prompt-page select,
+.save-run textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+  color: var(--text-h);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.save-run textarea {
+  display: block;
+  min-height: 72px;
+}
+
+.comparison h4 {
+  margin: 20px 0 8px;
+}
+
+.step-diff {
+  display: block;
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+}
+
+.usage-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 24px;
+  margin: 0 0 16px;
+}
+
+.usage-summary dt {
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.usage-summary dd {
+  margin: 0;
+  color: var(--text-h);
+  font-size: 22px;
+  font-variant-numeric: tabular-nums;
+}
+
+.usage-summary .missing {
+  display: block;
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .usage-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .usage-table {
+    width: max-content;
+    min-width: 100%;
+    table-layout: auto;
+  }
+
+  .usage-table .billing-id,
+  .usage-table .event-time {
+    width: auto;
+    overflow: visible;
+    text-overflow: clip;
+  }
+}
+
+.note {
+  margin-top: 4px;
+}
+
+.note.ok {
+  color: var(--text-h);
+}
+
+.note.bad {
+  color: #b42318;
+}
+
+.table-wrap {
+  overflow: auto;
+  max-height: 360px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.prompt-page table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.usage-table {
+  table-layout: fixed;
+}
+
+.usage-table .billing-id {
+  width: 22%;
+}
+
+.usage-table .event-time {
+  width: 28%;
+}
+
+.usage-table .billing-id,
+.usage-table .event-time {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.prompt-page th,
+.prompt-page td {
+  padding: 8px 10px;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+}
+
+.prompt-page th {
+  position: sticky;
+  top: 0;
+  color: var(--text-h);
+  background: var(--code-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .note.bad {
+    color: #fca5a5;
+  }
+}
